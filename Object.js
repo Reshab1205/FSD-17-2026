@@ -49,19 +49,86 @@
 // console.log(myData.trees['pa'])
 
 
-const obj = {
-    0: "Reshab",
-    1: "Kumar",
-    2:28,
-    3: "Vaishali"
+// const obj = {
+//     0: "Reshab",
+//     1: "Kumar",
+//     2:28,
+//     3: "Vaishali"
+// }
+
+
+// for( let i in obj) {
+//     console.log(typeof i)
+//     // console.log(obj[i])
+//     // console.log(`${i}:${obj[i]}`)
+// }
+
+
+// Object. 
+
+
+const myBioData = {
+    fname:"Reshab",
+    lname: "Kumar",
+    age:28,
+    address: {
+        vill: "Sarai",
+        'PO+PS':"Sarai",
+        city: "Vaishali",
+        state: "Bihar",
+        pincode: 844125
+    },
+    qualifications:{
+        matric: '85.5%',
+        '12th': '66%',
+        bca: '91%'
+    },
+    hobbies: {
+        web_series: ["Asur", "Family Man", "Mirzapur"],
+        movies: ["Avengers", "X-Men", "Superman"],
+        cricket: "District Level Under 19",
+        gaming: "PUBG"
+    }
 }
 
-
-for( let i in obj) {
-    console.log(typeof i)
-    // console.log(obj[i])
-    // console.log(`${i}:${obj[i]}`)
-}
+// console.log(myBioData['age'])
 
 
-// Object 
+
+// print pincode
+// console.log(myBioData.address.pincode)
+
+// // run loop and print all hobbies
+
+// for(let i in myBioData.hobbies) {
+//     console.log(i)
+// }
+
+// for(let i in myBioData) {
+//     if('hobbies' === i) {
+//         for(let j in myBioData[i]) {
+//             console.log(j)
+//         }
+//     }
+// }
+
+// console.log(Object.keys(myBioData))
+
+// const hi = function () {
+//     return 'Hello'
+// }
+
+// console.log(hi())
+
+// myBioData.keys 
+const data = Object.keys(myBioData)
+const val = Object.values(myBioData)
+const x = Object.entries(myBioData)
+console.log(data)
+console.log(val)
+console.log(x)
+
+
+
+
+
