@@ -176,5 +176,19 @@
 
 // Math.sqrt
 
+// const arr = [1,2,3,4,5,6]
+
+// const arr1 = [7,8,9]
+
+// const arr2 = [...arr, ...arr1]
+
+
+// [1,2,3,4,5,6,7,8,9] 
+
+// console.log(arr2)
+
+
+
+
 
 

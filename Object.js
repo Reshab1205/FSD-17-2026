@@ -67,29 +67,29 @@
 // Object. 
 
 
-const myBioData = {
-    fname:"Reshab",
-    lname: "Kumar",
-    age:28,
-    address: {
-        vill: "Sarai",
-        'PO+PS':"Sarai",
-        city: "Vaishali",
-        state: "Bihar",
-        pincode: 844125
-    },
-    qualifications:{
-        matric: '85.5%',
-        '12th': '66%',
-        bca: '91%'
-    },
-    hobbies: {
-        web_series: ["Asur", "Family Man", "Mirzapur"],
-        movies: ["Avengers", "X-Men", "Superman"],
-        cricket: "District Level Under 19",
-        gaming: "PUBG"
-    }
-}
+// const myBioData = {
+//     fname:"Reshab",
+//     lname: "Kumar",
+//     age:28,
+//     address: {
+//         vill: "Sarai",
+//         'PO+PS':"Sarai",
+//         city: "Vaishali",
+//         state: "Bihar",
+//         pincode: 844125
+//     },
+//     qualifications:{
+//         matric: '85.5%',
+//         '12th': '66%',
+//         bca: '91%'
+//     },
+//     hobbies: {
+//         web_series: ["Asur", "Family Man", "Mirzapur"],
+//         movies: ["Avengers", "X-Men", "Superman"],
+//         cricket: "District Level Under 19",
+//         gaming: "PUBG"
+//     }
+// }
 
 // console.log(myBioData['age'])
 
@@ -121,12 +121,29 @@ const myBioData = {
 // console.log(hi())
 
 // myBioData.keys 
-const data = Object.keys(myBioData)
-const val = Object.values(myBioData)
-const x = Object.entries(myBioData)
-console.log(data)
-console.log(val)
-console.log(x)
+// const data = Object.keys(myBioData)
+// const val = Object.values(myBioData)
+// const x = Object.entries(myBioData)
+
+// const data = {
+//     name:"Reshab",
+//     age:28
+// }
+// data.city = 'Bhopal'
+// // console.log(data)
+// Object.seal(data)
+// // console.log(Object.isSealed(data))
+// Object.freeze(data)
+// console.log(Object.isFrozen(data))
+// console.log(Object.entries(data).length)
+// data.age = 30
+// console.log('data', data)
+// Object.is 
+
+// Object
+// console.log(data)
+// console.log(val)
+// console.log(x)
 
 
 
