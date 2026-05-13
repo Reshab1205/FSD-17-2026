@@ -188,6 +188,41 @@
 // console.log(arr2)
 
 
+// let a = 10;
+// let b = 20;
+
+// [a,b]=[b,a];
+
+// console.log(a)
+
+// console.log(1 == 1)
+
+
+
+// const map = ar.map((data) => {return data > 2})
+
+// console.log(map)
+
+// const fil = ar.filter((data) => {return data % 3 == 0})
+
+// console.log(fil)
+
+// const ar = [1,2,3,4,5,6]
+// const data = ar.reduce((x,y) => {
+//     return x += y
+// },0)
+// console.log(data)
+
+const wish = ["Anniversary", "Birthday", "Republic Day"]
+
+wish.reduce((acc,curr) => {
+   console.log( acc = acc + curr)
+}, "Happy")
+
+// const data = ar.reduce((acc,curr) => {
+//     return acc *= curr
+// },1)
+
 
 
 
